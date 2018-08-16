@@ -2,7 +2,7 @@
     "name": "vscode-theme-boring",
     "displayName": "Boring Theme",
     "description": "A light, mostly, black and white team with strong focus on readability and less distractions",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "eliasson",
     "license": "MIT",
     "galleryBanner": {
