@@ -1,0 +1,210 @@
+{
+    "name": "Boring",
+    "type": "light",
+    "colors": {
+        "editorWhitespace.foreground":                                  "#CECECF",
+        "editorLineNumber.foreground":                                  "#1F1F1E",
+        "editorLineNumber.activeForeground":                            "#1F1F1E",
+        "editor.lineHighlightBackground":                               "#E6E6E6",
+        "editor.lineHighlightBorder":                                   null,
+        "editorWarning.foreground":                                     "#FE7803",
+        "editorWarning.border":                                         null,
+        "editorError.foreground":                                       "#EA2446",
+        "editorError.border":                                           null,
+        "editorCursor.foreground":                                      "#4F1091"
+    },
+    "tokenColors": [
+        {
+            "name": "Number",
+            "scope": [
+                "constant.numeric",
+                "constant.character.numeric"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Text",
+            "scope": [
+                "text"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#BD689B",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "#4F1091",
+                "fontStyle": ""
+            }
+        },
+
+
+        {
+            "name": "Markdown heading",
+            "scope": [
+                "markup.heading.markdown"
+            ],
+            "settings": {
+              "foreground": "#1F1F1E",
+              "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown italic",
+            "scope": [
+                "markup.italic.markdown"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown bold",
+            "scope": [
+                "markup.bold.markdown"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown code",
+            "scope": [
+                "markup.inline.raw.string.markdown"
+            ],
+            "settings": {
+                "foreground": "#BD689B",
+                "fontStyle": ""
+            }
+        },
+
+
+        {
+            "name": "Java/Type/CoffeeScript entities",
+            "scope": [
+                "entity.name.class",
+                "meta.class entity.name.type.class",
+                "entity.other.inherited-class",
+                "entity.name.function",
+                "entity.name.type",
+                "meta.function-call entity.name.function",
+                "meta.method.declaration storage.type",
+                "support.function",
+                "support.class",
+                "support.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": "bold"
+            }
+        },
+
+
+        {
+            "name": "HTML tags and attributes",
+            "scope": [
+                "entity.name.tag.html",
+                "entity.other.attribute-name.html",
+                "entity.name.tag.pug",
+                "entity.other.attribute-name.tag.pug"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "HTML tags and attributes",
+            "scope": [
+                "string.quoted.double.html",
+                "string.quoted.pug"
+            ],
+            "settings": {
+                "foreground": "#4F1091",
+                "fontStyle": ""
+            }
+        },
+
+
+        {
+            "name": "JSON Property Names",
+            "scope": [
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JSON Strings",
+            "scope": [
+                "string.quoted.double.json punctuation.definition.string.json",
+                "meta.structure.dictionary.value.json string.quoted.double"
+            ],
+            "settings": {
+                "foreground": "#4F1091",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "JSON null",
+            "scope": [
+                "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
+                "constant.numeric.json"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": ""
+            }
+        },
+
+
+        {
+            "name": "CSS Bold id/class/name and variable",
+            "scope": [
+                "entity.name.tag.css",
+                "entity.name.tag.less",
+                "entity.other.attribute-name.id",
+                "entity.other.attribute-name.id.less",
+                "entity.other.attribute-name.class",
+                "entity.other.attribute-name.class.less"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "CSS  other",
+            "scope": [
+                "meta.constructor.argument.css",
+                "meta.constructor.argument.less",
+                "meta.constructor.argument.sass",
+                "keyword.other.unit.px.css",
+                "entity.other.attribute-name.class.mixin.css",
+                "variable.other.less"
+            ],
+            "settings": {
+                "foreground": "#1F1F1E",
+                "fontStyle": ""
+            }
+        }
+    ]
+}

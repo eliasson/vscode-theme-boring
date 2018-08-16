@@ -1,0 +1,11 @@
+{
+    "foo": "yes",
+    "bar": 1,
+    "baz": false,
+    "another": null,
+    "wicked": [
+        { "a": "v" },
+        { "a": "v" },
+        { "a": "v" }
+    ]
+}

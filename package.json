@@ -1,0 +1,43 @@
+{
+    "name": "vscode-theme-boring",
+    "displayName": "Boring Theme",
+    "description": "A light, mostly, black and white team with strong focus on readability and less distractions",
+    "version": "0.0.1",
+    "publisher": "eliasson",
+    "license": "MIT",
+    "galleryBanner": {
+        "color": "#FF0000",
+        "theme": "light"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "black and white",
+        "light",
+        "boring"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Boring",
+                "uiTheme": "vs",
+                "path": "./themes/boring.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/eliasson/vscode-theme-boring/issues",
+        "email": "markus.eliasson@gmail.com"
+    },
+    "homepage": "https://github.com/eliasson/vscode-theme-boring",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eliasson/vscode-theme-boring"
+    },
+    "badges": []
+}
