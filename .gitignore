@@ -1,2 +1,5 @@
+# Generated packages are published to Marketplace
+*.vsix
+
 # An internal DSL at my workplace
 demo/splat.spl
