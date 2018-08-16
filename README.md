@@ -2,6 +2,8 @@
 
 A light theme with very few colors, on the border of boring.
 
+![Preview CoffeeScript](preview/coffee.png)
+
 * <span style="color: #1F1F1E; font-weight: bold;">Important words</span>, such as types and function names are bold everything
   else is normal - nothing is italic.
 * Strings are <span style="color: #4F1091">purple</span>

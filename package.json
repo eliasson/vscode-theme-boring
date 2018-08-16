@@ -30,6 +30,7 @@
             }
         ]
     },
+    "icon": "icon.png",
     "bugs": {
         "url": "https://github.com/eliasson/vscode-theme-boring/issues",
         "email": "markus.eliasson@gmail.com"
